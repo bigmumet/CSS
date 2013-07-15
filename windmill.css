@@ -1,0 +1,265 @@
+/** 
+=================================
+    CSS3 copyright @ makara
+      makaradewangga.com
+=================================
+**/
+
+#bg_image {
+    overflow: hidden;
+    width: 750px;
+    height: 384px;
+    background-color: #1a82f7;
+    background: url(images/linear_bg_2.png);
+    background-repeat: repeat-x;
+    
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3d9ce9), to(#ffffff));
+    
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #3d9ce9, #ffffff);
+    
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #3d9ce9, #ffffff);
+    
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #3d9ce9, #ffffff);
+    
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #3d9ce9, #ffffff);
+}
+
+.bg_rumah   { margin: 0; padding: 0; line-height: 0; position: absolute; top: 0; z-index: 5;}
+
+/* SPIN 1 */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@-moz-keyframes spin {
+  0% { -moz-transform: rotate(0deg); }
+  100% { -moz-transform: rotate(720deg); }
+}
+
+@-ms-keyframes spin {
+  0% { -ms-transform: rotate(0deg); }
+  100% { -ms-transform: rotate(360deg); }
+}
+
+@-o-keyframes spin {
+  0% { -o-transform: rotate(0deg); }
+  100% { -o-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+} 
+
+.kincir { position: absolute; z-index: 10; left: 53px; top:125px;
+    -webkit-animation: spin 5s infinite linear;
+    -moz-animation: spin 5s infinite linear;
+    -ms-animation: spin 5s infinite linear;
+    -o-animation: spin 5s infinite linear;
+    animation: spin 5s infinite linear;
+    
+    animation-duration: 5s;
+    animation-delay: 0s;
+
+}
+
+/* SPIN 2 */
+@-webkit-keyframes spin_2 {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@-moz-keyframes spin_2 {
+  0% { -moz-transform: rotate(0deg); }
+  100% { -moz-transform: rotate(720deg); }
+}
+
+@-ms-keyframes spin_2 {
+  0% { -ms-transform: rotate(0deg); }
+  100% { -ms-transform: rotate(360deg); }
+}
+
+@-o-keyframes spin_2 {
+  0% { -o-transform: rotate(0deg); }
+  100% { -o-transform: rotate(360deg); }
+}
+
+@keyframes spin_2 {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+} 
+
+.kincir_2 { position: absolute; z-index: 10; left: 402px; top:142px;
+    -webkit-animation: spin_2 8s infinite linear;
+    -moz-animation: spin_2 8s infinite linear;
+    -ms-animation: spin_2 8s infinite linear;
+    -o-animation: spin_2 8s infinite linear;
+    animation: spin_2 8s infinite linear;
+    
+    animation-duration: 8s;
+    animation-delay: 0s;
+
+}
+
+/* SPIN 3 */
+@-webkit-keyframes spin_3 {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@-moz-keyframes spin_3 {
+  0% { -moz-transform: rotate(0deg); }
+  100% { -moz-transform: rotate(720deg); }
+}
+
+@-ms-keyframes spin_3 {
+  0% { -ms-transform: rotate(0deg); }
+  100% { -ms-transform: rotate(360deg); }
+}
+
+@-o-keyframes spin_3 {
+  0% { -o-transform: rotate(0deg); }
+  100% { -o-transform: rotate(360deg); }
+}
+
+@keyframes spin_3 {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+} 
+
+
+.kincir_3 { position: absolute; z-index: 10; left: 576px; top:107px;
+    -webkit-animation: spin_3 6s infinite linear;
+    -moz-animation: spin_3 6s infinite linear;
+    -ms-animation: spin_3 6s infinite linear;
+    -o-animation: spin_3 6s infinite linear;
+    animation: spin_3 6s infinite linear;
+    
+    animation-duration: 6s;
+    animation-delay: 0s;
+
+}
+
+
+/* MOVE awan 1 */
+@-webkit-keyframes awan_1 {
+ 0% { left: -500px; }
+  100% { left: 750px;  }
+}
+
+@-moz-keyframes awan_1 {
+  0% { left: -500px; }
+  100% { left: 750px;  }
+}
+
+@-ms-keyframes awan_1 {
+  0% { left: -500px; }
+  100% { left: 750px;  }
+}
+
+@-o-keyframes awan_1 {
+  0% { left: -500px; }
+  100% { left: 750px;  }
+}
+
+@keyframes awan_1 {
+   0% { left: -500px; }
+  100% { left: 750px;  }
+} 
+
+ 
+.awan_1 { position: absolute; z-index: 2; left: -500px; top:160px;
+    -webkit-animation: awan_1 40s infinite linear;
+    -moz-animation: awan_1 40s infinite linear;
+    -ms-animation: awan_1 40s infinite linear;
+    -o-animation: awan_1 40s infinite linear;
+    animation: awan_1 40s infinite linear;
+    
+    animation-duration: 40s;
+    animation-delay: 0s;
+
+ }
+ 
+/* MOVE awan 2 */
+@-webkit-keyframes awan_2 {
+  0% { left: -200px; }
+  100% { left: 750px;  }
+}
+
+@-moz-keyframes awan_2 {
+  0% { left: -200px; }
+  100% { left: 750px;  }
+}
+
+@-ms-keyframes awan_2 {
+  0% { left: -200px; }
+  100% { left: 750px;  }
+}
+
+@-o-keyframes awan_2 {
+  0% { left: -200px; }
+  100% { left: 750px;  }
+}
+
+@keyframes awan_2 {
+   0% { left: -200px; }
+  100% { left: 750px;  }
+} 
+
+ 
+.awan_2 { position: absolute; z-index: 3; left: -200px; top:100px;
+    -webkit-animation: awan_2 20s infinite linear;
+    -moz-animation: awan_2 20s infinite linear;
+    -ms-animation: awan_2 20s infinite linear;
+    -o-animation: awan_2 20s infinite linear;
+    animation: awan_2 20s infinite linear;
+    
+    animation-duration: 20s;
+    animation-delay: 0s;
+
+ }
+ 
+/* MOVE awan 3 */
+@-webkit-keyframes awan_3 {
+    0% { left: -900px; }
+    100% { left: 750px;  }
+}
+
+@-moz-keyframes awan_3 {
+  0% { left: -900px; }
+  100% { left: 750px;  }
+}
+
+@-ms-keyframes awan_3 {
+  0% { left: -900px; }
+  100% { left: 750px;  }
+}
+
+@-o-keyframes awan_3 {
+  0% { left: -900px; }
+  100% { left: 750px;  }
+}
+
+@keyframes awan_3 {
+   0% { left: -900px; }
+  100% { left: 750px;  }
+} 
+
+ 
+.awan_3 { position: absolute; z-index: 2; left: -900px; top:185px;
+    -webkit-animation: awan_3 70s infinite linear;
+    -moz-animation: awan_3 70s infinite linear;
+    -ms-animation: awan_3 70s infinite linear;
+    -o-animation: awan_3 70s infinite linear;
+    animation: awan_3 70s infinite linear;
+    
+    animation-duration: 70s;
+    animation-delay: 0s;
+
+ }
